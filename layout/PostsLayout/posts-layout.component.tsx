@@ -10,7 +10,7 @@ const PostsLayout = ({children}: LayoutProps) => {
     return (
         <LayoutContainer>
             <LayoutHeader>
-            <Logo>
+            <Logo data-testid="logo">
                 <Link href="/">
                     <a style={{width:'100%', height:'100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                         Logo

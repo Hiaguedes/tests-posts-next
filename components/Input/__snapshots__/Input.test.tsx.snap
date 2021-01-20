@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teste de snapshot do input Snapshot de 20/01/2021 1`] = `
+<div>
+  <input
+    class="inputstyles__InputBase-ctnzf7-0 fPuFyf"
+    placeholder="Input de Test"
+    value=""
+  />
+</div>
+`;

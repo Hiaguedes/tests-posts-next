@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { InputBase } from './input.styles';
 
 interface InputProps {
-    value: string;
-    setValue: any;
+    value?: string;
+    setValue?: any;
     placeholder?: string;
 }
 
