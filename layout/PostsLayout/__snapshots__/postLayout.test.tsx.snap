@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`No layout da página de posts Snapshot do componente é o mesmo 20/01/2021 1`] = `
+<div
+  class="posts-layoutstyles__LayoutContainer-tuujpg-0 hVbdt"
+>
+  <div
+    class="posts-layoutstyles__LayoutHeader-tuujpg-1 fLHURT"
+  >
+    <div
+      class="posts-layoutstyles__Logo-tuujpg-2 FPlKk"
+      data-testid="logo"
+    >
+      <a
+        href="/"
+        style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;"
+      >
+        Logo
+      </a>
+    </div>
+  </div>
+  a
+</div>
+`;
