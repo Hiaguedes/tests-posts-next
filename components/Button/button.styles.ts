@@ -9,4 +9,5 @@ export const ButtonContainer = styled.button`
     right: -1rem;
     top: 0;
     border-radius: 1rem;
+    cursor: pointer;
 `;

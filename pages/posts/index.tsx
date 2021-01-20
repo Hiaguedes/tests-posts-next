@@ -14,7 +14,18 @@ const Posts = () => {
         fetch('http://localhost:4000/posts')
         .then(res => res.json())
         .then(res => setPosts(res));
-    },[]);
+    },[posts]);
+
+    const handleSendEvent = async (value: string) => {
+        await fetch('http://localhost:4000/posts', {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({title: 'Post', body: value, author: 'Someone'})
+        });
+    }
 
     return (
         <>
@@ -25,7 +36,7 @@ const Posts = () => {
             <div style={{width: '100%',display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <div style={{position: 'relative'}}>
                 <Input placeholder="Faça seu post" value={value} setValue={(e: any) => setValue(e.target.value)}/>
-                <Button> + </Button>
+                <Button onPress={async () => await handleSendEvent(value)}> + </Button>
                 </div>
             </div>
             {

@@ -2,12 +2,13 @@ import { ButtonContainer } from './button.styles';
 
 interface ButtonProps {
     children: React.ReactNode;
+    onPress: any;
 }
 
 
-const Button = ({children}: ButtonProps) => {
+const Button = ({children, onPress}: ButtonProps) => {
     return (
-        <ButtonContainer>
+        <ButtonContainer onClick={onPress}>
             {children}
         </ButtonContainer>
     );

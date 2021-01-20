@@ -1,10 +1,22 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Medium Paywall bullshit",
-            "body": "lorem blablabla",
-            "author": "Jreg"
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Medium Paywall bullshit",
+      "body": "lorem blablabla",
+      "author": "Jreg"
+    },
+    {
+      "title": "Post",
+      "body": "Teste 1",
+      "author": "Someone",
+      "id": 2
+    },
+    {
+      "title": "Post",
+      "body": "Simples Assim",
+      "author": "Someone",
+      "id": 3
+    }
+  ]
 }
