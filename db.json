@@ -1,0 +1,10 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Medium Paywall bullshit",
+            "body": "lorem blablabla",
+            "author": "Jreg"
+        }
+    ]
+}
